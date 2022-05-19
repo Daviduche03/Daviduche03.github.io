@@ -14,6 +14,7 @@
 				--big-font:4rem;
 				--h2-font:2.25rem;
 				--p-font:0.9rem;
+				--h1:2rem;
 }
 *::section{
 				background: var(--main-color);
@@ -82,8 +83,8 @@ section{
 				height: auto;
 				border-radius: 50px;
 }
-.home-text h2{
-				font-size: var(--big-font);
+.home-text h1{
+				font-size: var(--h1);
 				color: var(--main-color);
 				margin-top: 40px;
 }
