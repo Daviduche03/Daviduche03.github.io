@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+				<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EKL3CJVRBH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EKL3CJVRBH');
+</script>
 				<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,6 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
         </script>
 				<link rel="stylesheet" href="css/style.css">
+				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 				<!-- Google Tag Manager (noscript) -->
@@ -148,10 +158,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<img src="img/webvium_transparent_icon.png" alt="Webvium">
 					</div>
 				</section>
-				<section class="text" id="project">
+				<section class="text" id="project" >
 								<p class="t">My <span>Projects</span></p>
 								<div class="img-card">
-								<div class="card">
+								<div class="card" data-aos="fade-right">
       <img src="img/Screenshot_20220506-195623_1.png" alt="portfolio" />
       <div class="card-text">
          <p class="card-head" style="color: #00eaff">My portfolio</p>
@@ -159,14 +169,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          
       </div>
    </div>
-   <div class="card">
-      <img src="img/sound.jpg" alt="David uche"/>
+   <div class="card" data-aos="fade-right">
+      <img src="img/Screenshot_20220518-144226_1.png" alt="David uche"/>
       <div class="card-text">
-         <p class="card-head">Typing speed</p>
+         <p class="card-head">Weather app</p>
+         <p class="p">built with open weather api</p>
          <p class="card-head"><a href="" style="color: #00eaff;">view</a></p>
       </div>
    </div>
-   <div class="card">
+   <div class="card" data-aos="fade-right">
       <img src="img/sound.jpg" alt="David"/>
       <div class="card-text">
          <p class="card-head">Typing speed</p>
@@ -180,7 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     font-size:25px;
     border: 1.1px solid #00eaff;
     padding: 5px;
-    border-radius: 50%;">→</a>
+    border-radius: 50%;" data-aos="fade-right">→</a>
 				</section>
 				<section class="form" id="contact">
 								<p class="text">Contact <span>me</span></p>
@@ -200,7 +211,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<section class="text" id="friends">
 								<p class="t"> <span>Friends</span></p>
 								<div class="img-card">
-								<div class="card">
+								<div class="card" data-aos="fade-right">
       <img src="img/mrepol742.png" alt="melvin jones repol"/>
       <div class="card-text">
          <p class="card-head">Melvin jones repol</p>
@@ -209,7 +220,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
          				<a href="https://mrepol742.github.io/" class="btn" style="margin:10px;">Profile</a>
       </div>
    </div>
-   <div class="card">
+   <div class="card" data-aos="fade-right">
       <img src="img/FB_IMG_16493751081509924.jpg" alt="melvin chai"/>
       <div class="card-text">
          <p class="card-head">Melvin Chai</p>
@@ -253,5 +264,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								splash.fromAnimation(SVGAnimation.Dalton, 2000, {color: '#00eaff'});
 								
 				</script>
+				<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
