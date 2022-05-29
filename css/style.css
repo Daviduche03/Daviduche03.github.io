@@ -175,7 +175,6 @@ section{
          font-family: sans-serif;
          margin: 15px;
          border-radius: 6px;
-         padding: 10px;
       }
       .card-text {
          padding: 10px;
@@ -357,6 +356,14 @@ footer{
 				.navbar a{
 								padding: 1rem;
 								display: block;
+				}
+				.about{
+								grid-template-columns: 1fr;
+								text-align: center;
+				}
+				.home{
+								grid-template-columns: 1fr;
+								text-align: center;
 				}
 }
 @media(max-width: 720px){
