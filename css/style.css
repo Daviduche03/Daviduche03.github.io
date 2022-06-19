@@ -2,7 +2,7 @@
 				padding: 0;
 				margin: 0;
 				box-sizing: border-box;
-				font-family: Times;
+				font-family: 'Noto Sans', sans-serif;
 				scroll-behavior: smooth;
 				list-style: none;
 				text-decoration: none;
@@ -87,14 +87,17 @@ section{
 				font-size: var(--h1);
 				color: var(--main-color);
 				margin-top: 40px;
+				font-family: monospace;
 }
 .home-text h4{
 				font-size: 20px;
 				margin: 1rem 0 2rem;
-				font-family: monospace;
+				font-family: 'Noto Sans', sans-serif;
+
+
 }
-.home-text h4 i{
-				font-family: Poppins;
+.home-text h4 p{
+				font-family: 'Noto Sans', sans-serif;
 }
 .btn{
 				display: inline-block;
@@ -103,6 +106,8 @@ section{
 				color: black;
 				border-radius: 0.5rem;
 				border:0px;
+				border-bottom-left-radius: 70px;
+				border-top-right-radius: 70px;
 }
 .btn:hover{
 				transform: scale(1.2) translateY(10px);
@@ -164,7 +169,9 @@ section{
 				color: var(--main-color);
 }
 .img-card{
-				display: flex;
+				display: grid;
+				grid-template-columns: 33% 33% 33%;
+				grid-column-gap: 4em;
 				justify-content: center;
 				align-items: center;
 }
@@ -372,8 +379,8 @@ footer{
 				}
 				.logo{
 				color: white;
-				font-weight: 600;
-				font-size: 1.4rem;
+				font-weight: 800;
+				font-size: 1.7rem;
 }
 				
 				section{
@@ -382,7 +389,7 @@ footer{
 
 .home-img img{
 				max-width: 100%;
-				width: 200px;
+				width: 300px;
 				height: auto;
 				border-radius: 10px;
 }
@@ -407,6 +414,7 @@ footer{
 								order: 2;
 				}
 				.img-card{
-				display: block;				
+				display: block;	
+				margin-left: 20px;			
 				}
 }
