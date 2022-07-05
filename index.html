@@ -40,6 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 				<script type="application/ld+json">
     {
     "@context": "https://schema.org",
@@ -105,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-				<header>
+				<header class="head">
 								<a href="#" class="logo"> David uche</a>
 								<div class="bx bx-menu" id="menu-icon">
 												<div class="bar1"></div>
@@ -160,25 +161,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <img src="img/port.jpg" alt="portfolio" />
       <div class="card-text">
          <p class="card-head" style="color: #00eaff">My portfolio</p>
-         <p class="card-head">Html Css Javascript</p>
+         <div class="img-grid">
+         				<div class="img-flex">
+         				<img src="img/html2.jpg" alt="HTML">
+         				<img src="img/css.jpeg" alt="CSS">
+         				<img src="img/js.jpg" alt="Javascript">
+         </div>
+         
+         <div class="img-flex">
+         				<a href="#"><img src="img/github.jpg" alt="github"></a>
+         </div>
+         </div>
+         
          
       </div>
    </div>
    <div class="card" data-aos="fade-right">
-      <img src="img/we.png" alt="David uche"/>
+      <img src="img/nft.jpg" alt="David uche"/>
       <div class="card-text">
-         <p class="card-head">Weather app</p>
-         <p class="p">built with open weather api</p>
-         <p class="card-head"><a href="https://weather-storm.netlify.app/" style="color: #00eaff;">view</a></p>
+         <p class="card-head">NFTAIR</p>
+         <p class="p">NFT website design</p>
+         <div class="img-grid">
+         				<div class="img-flex">
+         				<img src="img/html2.jpg" alt="HTML">
+         				<img src="img/css.jpeg" alt="CSS">
+         				<img src="img/js.jpg" alt="Javascript">
+         </div>
+         
+         <div class="img-flex">
+         				<a href="#"><img src="img/github.jpg" alt="github"></a>
+         </div>
+         </div>
+         <p class="card-head"><a href="https://nftair.netlify.app/" style="color: #00eaff;">view</a></p>
       </div>
    </div>
+   
    <div class="card" data-aos="fade-right">
-      <img src="img/sound.jpg" alt="David"/>
+      <img src="img/tail_1.jpg" alt="David uche"/>
       <div class="card-text">
-         <p class="card-head">Typing speed</p>
-         <p></p>
+         <p class="card-head">Developer</p>
+         <p class="p">Business website design</p>
+         <div class="img-grid">
+         				<div class="img-flex">
+         				<img src="img/html2.jpg" alt="HTML">
+         				<img src="img/tailwind.jpg" alt="Tailwind css">
+         </div>
+         
+         <div class="img-flex">
+         				<a href="#"><img src="img/github.jpg" alt="github"></a>
+         </div>
+         </div>
+         <p class="card-head"><a href="https://nftair.netlify.app/" style="color: #00eaff;">view</a></p>
       </div>
    </div>
+   
+   
                  </div>
                  <a href="project.html" style="text-decoration: none;
     color: #fff;
@@ -261,16 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </footer>
 				<script src="js/script.js"></script>
-				<script src="js/js-splash-2.0.min.js"></script>
-				<script>
-								var splash = new Splash({background: '#111111'}, {
-        use: true,
-        start: FancyAnimation.moveIn,
-        end: FancyAnimation.moveOut
-    });
-								splash.fromAnimation(SVGAnimation.Dalton, 2000, {color: '#00eaff'});
-								
-				</script>
+				
 				<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
