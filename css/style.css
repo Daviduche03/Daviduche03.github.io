@@ -175,12 +175,32 @@ section{
 				justify-content: center;
 				align-items: center;
 }
+.img-flex{
+				display: flex;
+				justify-content: center;
+}
+.img-flex img{
+				width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				margin: 3px;
+				margin-bottom: 8px;
+				margin-top: 12px;
+}
+.img-grid{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 5rem;
+				align-items: center;
+				margin-bottom: 20px;
+				margin-top: 20px;
+}
 .card {
          box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
          box-sizing: border-box;
          width: 250px;
          font-family: sans-serif;
-         margin: 15px;
+         margin: 20px;
          border-radius: 6px;
       }
       .card-text {

@@ -124,6 +124,26 @@ header{
 				align-items: center;
 				padding: 7px 17px;
 }
+.img-flex{
+				display: flex;
+				justify-content: center;
+}
+.img-flex img{
+				width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				margin: 3px;
+				margin-bottom: 8px;
+				margin-top: 8px;
+}
+.img-grid{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 5rem;
+				align-items: center;
+				margin-bottom: 20px;
+				margin-top: 20px;
+}
 .card {
          box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
          box-sizing: border-box;
@@ -131,7 +151,6 @@ header{
          font-family: sans-serif;
          margin: 15px;
          border-radius: 6px;
-         padding: 10px;
       }
       .card-text {
          padding: 10px;
