@@ -1,0 +1,217 @@
+*{
+				padding: 0;
+				list-style-type: none;
+				text-decoration: none;
+				box-sizing: border-box;
+				margin: 0;
+				scroll-behavior: smooth;
+				font-family: 'Noto Sans', sans-serif;
+}
+:root{
+				--main-color: #00eaff;
+				--text-color: white;
+				--bg-color:#111111;
+				--big-font:4rem;
+				--h2-font:2.25rem;
+				--p-font:0.9rem;
+				--h1:2rem;
+}
+body{
+				background: var(--bg-color);
+				color: var(--text-color);
+}
+header{
+				position: fixed;
+				background: var(--bg-color);
+				display: flex;
+				top: 0;
+				right: 0;
+				align-items: center;
+				justify-content: space-between;
+				z-index: 1000;
+				padding: 15px 17px;
+				width: 100%;
+}
+.navbar{
+				display: flex;
+}
+.navbar a{
+			padding: 10px 20px;
+			color: var(--text-color);
+			font-size: 1.1rem;
+}
+.navbar a:hover{
+				color: var(--main-color);
+				transition: .5s;
+}
+.logo{
+				color: var(--main-color);
+				font-size: 2rem;
+			  font-family: cursive;
+			  font-weight: 600;
+}
+#menu-icon{
+				cursor: pointer;
+				font-size: 2rem;
+				display: none;
+}
+.bar1,
+.bar2,
+.bar3{
+				width:19px;
+				height:2px;
+				background: white;
+				margin:4px 0;
+				border-radius: 5px;
+}
+.pro{
+				padding-top: 100px;
+				width: 100%;
+				
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+}
+.pro-button button{
+				
+				border:2px solid #00eaff;
+				background: transparent;
+				color: var(--text-color);
+				border-radius: 0.5rem;
+				border-bottom-left-radius: 70px;
+				border-top-right-radius: 70px;
+				width: 150px;
+				margin: 10px;
+				padding: 10px 20px;
+}
+.pro-button button:hover{
+				display: inline-block;
+				padding: 10px 20px;
+				background: var(--main-color);
+				color: black;
+				border-radius: 0.5rem;
+				border:0px;
+				margin: 10px;
+				margin-top: 20px;
+				transition: .5s;
+				
+}
+.pro-text span{
+				font-family: fantasy;
+}
+.pro-text p{
+				padding-left: 10px;
+				padding-right: 10px;
+				margin: 0.8rem 0 1.8rem;
+				line-height: 1.7;
+				font-family: 'Noto Sans', sans-serif;
+}
+.pro-text h2{
+				color: var(--main-color);
+}
+.pro-gallery{
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+}
+.pro-gallery h3{
+				margin-top: 60px;
+}
+.img{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				padding: 7px 17px;
+}
+.img-flex{
+				display: flex;
+				justify-content: center;
+}
+.img-flex img{
+				width: 25px;
+				height: 25px;
+				border-radius: 50%;
+				margin: 3px;
+				margin-bottom: 8px;
+				margin-top: 8px;
+}
+.img-grid{
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 5rem;
+				align-items: center;
+				margin-bottom: 20px;
+				margin-top: 20px;
+}
+.card {
+         box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.3), 0 7px 10px 0 rgba(0, 0, 0, 0.20);
+         box-sizing: border-box;
+         width: 250px;
+         font-family: sans-serif;
+         margin: 15px;
+         border-radius: 6px;
+         border: 1.5px solid #00eaff;
+      }
+      .card-text {
+         padding: 10px;
+      }
+      .card:hover{
+      				transform: scale(1.0) translateY(-20px);
+				transition: .4s;
+      }
+      .card-text .card-head{
+      				font-size: 20px;
+      				text-align: center;
+      				margin-bottom: 10px;
+      }
+      .card-text .describe{
+      				text-align: center;
+      				line-height: 1.6;
+      }
+      .card > img {
+         width: 100%;
+         height: auto;
+      }
+      .pro img{
+      				width: 300px;
+      				height: 300px
+      				}
+@media(min-width:1024px){
+				.pro img{
+								width:700px;
+								height: 700px;
+				}
+				.pro-text{
+								padding-left: 20px;
+								padding-right: 20px;
+				}
+}
+@media(max-width: 800px){
+				section{
+								padding: 50px 8%;						
+				}
+				#menu-icon{
+								display: initial;
+								color: var(--text-color);
+				}
+				header .navbar{
+								position: absolute;
+								top: -380px;
+								right: 0;
+								left: 0;
+								display: flex;
+								flex-direction: column;
+								text-align: center;
+								background: #000000d0;
+								transition: .3s;
+				}
+				header .navbar.active{
+								top:76px;
+				}
+				.navbar a{
+								padding: 1rem;
+								display: block;
+								color: white;
+				}
+}
