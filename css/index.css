@@ -11,7 +11,7 @@
 }
 
 :root {
-  --black: #000;
+  --black: #0b1617;
   --main: #00ff72;
   --white: #fff;
   --gray: #c4c5c5;
@@ -302,53 +302,15 @@ header .logo h2 span {
   justify-content: center;
   align-items: center;
   margin-bottom: 8rem;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
-.work-img {
-  padding: 1rem;
-  height: 18rem;
+.work-list{
+  background: #102123;
+  padding: 1.5rem;
   width: 23rem;
   border-radius: .3rem;
-  left: 20%;
-}
-
-.work-text {
-  text-align: right;
-  margin: 0;
-  position: relative;
-  width: 70%;
-}
-
-.work-text #text {
-  border: 2px solid var(--main);
-  border-radius: .3rem;
-  width: 100%;
-  padding: .6rem;
-  position: relative;
-}
-
-.work-text-opp {
-  text-align: left;
-  margin: 0;
-  position: relativex;
-  width: 80%;
-  left: 20%;
-}
-
-.work-text-opp #text-opp {
-  border: 2px solid var(--main);
-  border-radius: .3rem;
-  padding: .7rem;
-  position: relative;
-}
-
-.work-img-opp {
-  padding: 1rem;
-  height: 18rem;
-  width: 24rem;
-  border-radius: .3rem;
-  left: 3px;
 }
 
 .contact {
@@ -369,7 +331,7 @@ header .logo h2 span {
 }
 
 .contact form {
-  background: #111;
+  background: #102123;
   padding: 1rem;
   display: grid;
   place-items: center;
@@ -380,14 +342,14 @@ header .logo h2 span {
   margin: .5rem;
   padding: .8rem;
   background: var(--black);
-  border: 2px solid var(--light-main);
+  
   color: var(--light);
   border-radius: .3rem;
   outline: none;
 }
 
 footer {
-  background: #111;
+  background: #102123;
   padding: 1.5rem;
   text-align: center;
   border-radius: .3rem;
@@ -413,7 +375,7 @@ footer span {
 @media only screen and (max-width: 600px) {
   .nav {
     display: none;
-    background: #111;
+    background: #102123;
     padding: 1rem;
     text-align: left;
     width: 18rem;
@@ -492,24 +454,6 @@ footer span {
 
   .work {
     padding: 5% 1rem;
-  }
-  
-  .work-img{
-    filter: blur(5px);
-  }
-  
-  .work-img-opp{
-    filter: blur(5px);
-  }
-  
-  .work-text{
-    position: absolute;
-    width: 80%;
-  }
-  
-  .work-text-opp{
-    position: absolute;
-    left: 10%;
   }
 
   .contact {
