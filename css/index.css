@@ -33,6 +33,10 @@ p, h1, h2, h3, h4, a, li {
   color: var(--white);
 }
 
+small {
+  color: var(--main);
+}
+
 header {
   display: flex;
   justify-content: space-between;
