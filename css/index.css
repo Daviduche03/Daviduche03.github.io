@@ -107,7 +107,7 @@ header .logo h2 span {
 
 .home .h2 {
   font-size: 4rem;
-  paddng: 0;
+  padding: 0;
   margin-top: .8rem;
   color: #999;
 }
@@ -164,7 +164,7 @@ header .logo h2 span {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-itms: center;
+  align-items: center;
   grid-gap: 1rem;
 }
 
@@ -179,7 +179,7 @@ header .logo h2 span {
   height: 18.5rem;
   border-width: 2px;
   border-color: var(--main);
-  paddig: 1rem;
+  padding: 1rem;
   border-radius: .3rem;
   background: transparent;
   display: grid;
@@ -198,7 +198,7 @@ header .logo h2 span {
 
 .about-text ul {
   display: flex;
-  justify-conent: center;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -314,6 +314,7 @@ header .logo h2 span {
   background: #102123;
   padding: 1.5rem;
   width: 23rem;
+  height: 21rem;
   border-radius: .3rem;
 }
 
@@ -429,7 +430,7 @@ footer span {
   .about-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    align-itms: center;
+    align-items: center;
     grid-gap: 1rem
   }
 

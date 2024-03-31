@@ -5,23 +5,23 @@ const li1 = document.querySelector('.li1');
 const li2 = document.querySelector('.li2');
 const li3 = document.querySelector('.li3');
 
-// btn1.addEventListener('click', ()=>{
-//   li1.classList.add('hide');
-//   li1.classList.remove('show');
-//   li2.classList.remove('hide');
-//   li2.classList.add('show');
-//   li3.classList.remove('show');
-//   li3.classList.add('hide');
-// });
+btn1.addEventListener('click', ()=>{
+  li1.classList.add('hide');
+  li1.classList.remove('show');
+  li2.classList.remove('hide');
+  li2.classList.add('show');
+  li3.classList.remove('show');
+  li3.classList.add('hide');
+});
 
-// btn0.addEventListener('click', ()=>{
-//   li1.classList.add('show');
-//   li1.classList.remove('hide');
-//   li2.classList.add('hide');
-//   li2.classList.remove('show');
-//   li3.classList.remove('show');
-//   li3.classList.add('hide');
-// });
+btn0.addEventListener('click', ()=>{
+  li1.classList.add('show');
+  li1.classList.remove('hide');
+  li2.classList.add('hide');
+  li2.classList.remove('show');
+  li3.classList.remove('show');
+  li3.classList.add('hide');
+});
 /*
 btn2.addEventListener('click', ()=>{
   li1.classList.add('hide')
